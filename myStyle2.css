@@ -1,0 +1,17 @@
+.help{
+    -fx-background-color: linear-gradient(#0808A4, #000022);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.9) , 5, 0.0 , 0 , 1 );
+   
+    -fx-background-radius: 100 100 100 100;
+}
+.help .text{
+    -fx-fill: white;
+}
+
+.myText .text{
+    -fx-font: 40px Tahoma;
+    -fx-font-weight: bold;
+    -fx-stroke: black;
+    -fx-stroke-width: 1.5px;
+}
+    
